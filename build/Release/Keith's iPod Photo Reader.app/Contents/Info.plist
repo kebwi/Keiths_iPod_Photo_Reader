@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Keith's iPod Photo Reader</string>
+	<key>CFBundleIconFile</key>
+	<string>appIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.KeithWiley.KeithsIPodPhotoReader</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Keith's iPod Photo Reader</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>v2.1 ©2008 Keith Wiley</string>
+	<key>CFBundleSignature</key>
+	<string>KiPR</string>
+	<key>CFBundleVersion</key>
+	<string>2.1</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>
