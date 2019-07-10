@@ -67,13 +67,15 @@ You may want to convert the saved PICT files to a more common format, such as JP
 ==========================================================
 KNOWN ENCODINGS OF HIGHEST RESOLUTION IMAGES
 
-This section last updated 080927.
+This section last updated 190710.
 
 The offset should almost always be left set to 0.  If you find a situation where this is not the case please contact me so I can record it.
 
-The endian may depend on whether you are using a PPC or Intel mac (and *might* depend on the model of iPod, I'm not sure), so try both endian settings.  Note that the prefixes that correspond to particular image resolutions may or may not vary from one iPod to another, I simply don't know for certain.  The following data represent settings observed on some iPods.  iPod nanos probably don't store 720x480 images because, to my knowledge, they can't show images on external display devices.
+The endian may depend on whether you are using a PPC or Intel mac (and *might* depend on the model of iPod, I'm not sure), so try both endian settings.  Note that the prefixes that correspond to particular image resolutions may or may not vary from one iPod to another, I simply don't know for certain.  The following data represent settings observed on some iPods.  Old iPod nanos probably don't store 720x480 images because, to my knowledge, they can't show images on external display devices.
 
 If you discover the correct settings for a specific four-digit prefix on a particular model of iPod, please notify me so I can update this database for other users.  I will need to know is the file prefix, the image dimensions, the decoding method, and the iPod model.
+
+As a rule of thumb for newer devices: try with the native screen resolution first. Compensate for "retina" displays by doubling the numbers.
 
 Thank you very much for helping me build this database.
 
@@ -117,6 +119,11 @@ IPOD NANO
     Highest resolution ithmb image: 720x480
     File prefix for highest res images: 1067
     Encoding method: 12-bit YCbCr 4:2:0, Blue first, half image padded
+    
+ 7th generation iPod nano (video, slim, large screen):
+    Highest resolution ithmb image: 864x480
+    File prefix for highest res images: 1007
+    Encoding method: 16-bit RBG
 
 ----------------------------------------
 IPOD TOUCH AND IPHONE
