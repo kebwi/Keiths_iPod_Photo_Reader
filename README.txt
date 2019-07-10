@@ -121,7 +121,7 @@ IPOD NANO
     Encoding method: 12-bit YCbCr 4:2:0, Blue first, half image padded
     
  7th generation iPod nano (video, slim, large screen):
-    Highest resolution ithmb image: 926x480
+    Highest resolution ithmb image: 864x480
     File prefix for highest res images: 1007
     Encoding method: 16-bit RBG
 
